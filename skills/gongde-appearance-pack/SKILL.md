@@ -2,7 +2,7 @@
 name: gongde-appearance-pack
 description: Create, preview, check and package a data-only 牛马电子功德 appearance for direct local import into the Mac and Windows 0.9.5 releases. Use for DIY layered artwork, keyframes and .nmgpack authoring; not client signing, publishing or enabling submissions.
 metadata:
-  version: "1.3.2"
+  version: "1.3.3"
 ---
 
 # 牛马电子功德形象制作
