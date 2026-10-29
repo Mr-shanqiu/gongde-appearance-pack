@@ -2,7 +2,7 @@
 name: gongde-appearance-pack
 description: Create, preview, check and package a data-only 牛马电子功德 appearance for direct local import into the Mac and Windows 0.9.5 releases. Use for DIY layered artwork, keyframes and .nmgpack authoring; not client signing, publishing or enabling submissions.
 metadata:
-  version: "1.3.1"
+  version: "1.3.2"
 ---
 
 # 牛马电子功德形象制作
@@ -40,7 +40,7 @@ Windows PowerShell示例：`node .\scripts\new-pack.mjs "$HOME\Desktop\MyPack" -
 
 ## 分享与投稿
 
-制作、导入不要求投稿。作者希望分享作品时，读取 [投稿入口与版本更新](references/submission-and-updates.md)。官网的 Skill 下载区同时提供投稿协议及确认按钮，通过抖音群联系管理员人工提交。投稿及适配版统一免费，不包含默认二创收费授权。使用 Skill、下载或入群不视为同意投稿协议；请由作者本人勾选确认，不代其同意或发送消息。
+制作、导入不要求投稿。作者希望分享作品时，读取 [投稿入口与版本更新](references/submission-and-updates.md)。官网的 Skill 下载区同时提供投稿协议及确认按钮，通过抖音群联系管理员人工提交。投稿及适配版统一免费，不包含默认二创收费授权。使用 Skill、下载或入群不视为同意投稿协议；请由作者本人阅读协议后将确认文字连同作品发给群管理员，不代其同意或发送消息。
 
 ## 身份与边界
 
