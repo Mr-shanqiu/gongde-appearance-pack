@@ -1,0 +1,102 @@
+{
+  "schema_version": 3,
+  "id": "diy.example.waving-bell",
+  "version": "1.0.0",
+  "name_zh": "挥手小铃",
+  "name_en": "Waving Bell",
+  "author": "DIY Example",
+  "publisher": "DIY Example",
+  "review_id": "local",
+  "canvas_width": 240,
+  "canvas_height": 250,
+  "preview": "preview.png",
+  "plus_y": 174,
+  "layers": [
+    {
+      "image": "body.png",
+      "frame": [
+        50,
+        3.75,
+        140,
+        138
+      ],
+      "anchor": [
+        0.5,
+        0
+      ],
+      "interpolation": "linear",
+      "keyframes": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scale": 1,
+          "alpha": 1,
+          "scale_y": 1
+        }
+      ]
+    },
+    {
+      "image": "hand.png",
+      "frame": [
+        155,
+        58,
+        40,
+        64
+      ],
+      "anchor": [
+        0.2,
+        0.2
+      ],
+      "interpolation": "smoothstep",
+      "keyframes": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scale": 1,
+          "alpha": 1,
+          "scale_y": 1
+        },
+        {
+          "t": 0.28,
+          "x": 0,
+          "y": 0,
+          "rotation": 24,
+          "scale": 1,
+          "alpha": 1,
+          "scale_y": 1
+        },
+        {
+          "t": 0.5,
+          "x": 0,
+          "y": 0,
+          "rotation": -10,
+          "scale": 1,
+          "alpha": 1,
+          "scale_y": 1
+        },
+        {
+          "t": 0.72,
+          "x": 0,
+          "y": 0,
+          "rotation": 18,
+          "scale": 1,
+          "alpha": 1,
+          "scale_y": 1
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scale": 1,
+          "alpha": 1,
+          "scale_y": 1
+        }
+      ]
+    }
+  ]
+}

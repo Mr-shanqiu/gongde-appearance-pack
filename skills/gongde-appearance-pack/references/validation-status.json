@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-28",
+  "skillVersion": "1.3.1",
+  "standaloneNodeSmoke": true,
+  "checkerTests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "macOS": {
+    "commit": "c095a823343e25b747ea0f41d1e6670ce0485053",
+    "nativeExampleVerified": true,
+    "scope": [
+      "schema1 and schema3 unsigned DIY import",
+      "metadata and resource preparation",
+      "drawAtPhase produces different rest/action frames",
+      "same-ID update",
+      "remove owned pack",
+      "isolated unrelated sentinel unchanged"
+    ],
+    "notCovered": [
+      "packaged GUI user experience",
+      "fresh Core Animation performance run"
+    ],
+    "receiptSha256": "954fd31fb329b532de1954be3c4772c1b2f2325db7b8bee4ccf8cde6183b52a9"
+  },
+  "Windows": {
+    "commit": "3630053a950ef33ae2fd4f9e7b20b5395c373d4c",
+    "commonFormatSourceReviewed": true,
+    "nativeExampleVerified": true,
+    "platform": "Windows 8.1 Update x64 VirtualBox, 3D disabled",
+    "scope": [
+      "native install",
+      "same-ID reimport",
+      "five-phase drawing",
+      "counter area stays clear",
+      "delete managed copy imported from readonly ISO"
+    ],
+    "schemas": [
+      1,
+      3
+    ],
+    "receiptSha256": "47a9c266e2c816cf5125a817dc05372eec139e266bc9892efdcc4ba057ac7671",
+    "notCovered": [
+      "Not packaged GUI or modern GPU performance testing",
+      "Host real user data not accessed"
+    ]
+  },
+  "boundaries": {
+    "realUserDataReadOrChanged": false,
+    "clientSourceChanged": false,
+    "officialSignedPacksChanged": false,
+    "published": false
+  },
+  "changesSince1_2_1": "Windows baseline updated to 3630053; same tool/template source retains 24 checker tests and prior Mac native results. Added real Windows unsigned example test. Submission terms and site download remain unpublished candidates.",
+  "documentationUpdate": "2026-10-29: public GitHub distribution and website submission confirmation. Tool/template/importer tests reused unchanged; standalone install smoke recorded separately."
+}

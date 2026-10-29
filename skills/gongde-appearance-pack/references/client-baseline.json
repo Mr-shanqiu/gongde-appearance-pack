@@ -1,0 +1,42 @@
+{
+  "skillVersion": "1.3.1",
+  "format": "unsigned DIY schema1/schema3 common subset",
+  "clients": {
+    "macOS": {
+      "developmentCandidate": true,
+      "commit": "c095a823343e25b747ea0f41d1e6670ce0485053",
+      "files": {
+        "src/macos/appearance_pack.mm": "2f70d576e552c7670d0f3c5577bc55f0caebc2aff3ecf1753f96c3c439e87e96",
+        "src/macos/appearance_pack.h": "6e13e0509944cea9ea76813a2767d02de2878d541d9af8b336f2889a061601ac",
+        "src/macos/layer_scene.mm": "85d54744c1c549c37611f68ebae66b3e264d8062c8d58fcf1db736819d5dbc34"
+      }
+    },
+    "Windows": {
+      "developmentCandidate": true,
+      "commit": "3630053a950ef33ae2fd4f9e7b20b5395c373d4c",
+      "files": {
+        "src/windows/appearance_pack.cpp": "18d0e43099423e4a0d0430d8e053ee3f644a6df54efb827d4138fedb714b8143",
+        "src/windows/appearance_pack.h": "2e3306e48d672d73dcaaf93179bde09977e26615285e86850091c069bb59d273",
+        "src/windows/runtime/appearance_scene.cpp": "97d58f3e1367159a3bbc7250b1268fbc919749242baafedb0c51a53752765fba",
+        "src/windows/runtime/appearance_scene.h": "1c814681363c8dc0c8cb1401523b9d4dd79d3c434fae20ed393566393015aa99"
+      }
+    }
+  },
+  "authoritativeDocuments": {
+    "docs/APPEARANCE_VISUAL_STANDARD.zh-CN.md": "de5610efc56f65bebf851ebab533a4226447d69132e161459f3bd162e40085dd",
+    "docs/APPEARANCE_PACK_SPEC.md": "f80789da624d3ce64914f2182034b6a5242718972f1a43625ba3fe4be5c18361",
+    "docs/APPEARANCE_PACK_PLAYBOOK.zh-CN.md": "f31c34d0dfc2cd6098eef0d5cb13f582d47b712b6b83865284ca59b7241b98bc"
+  },
+  "releasedArtifacts": {
+    "macOS": {
+      "version": "0.9.5",
+      "build": "905.1",
+      "sha256": "a3de19968bf7401fcf1f5b0f24a0315ed34a2d52304f71f909d33028132a6212"
+    },
+    "Windows": {
+      "version": "0.9.5",
+      "sha256": "1a3c5187adddc0e6167cddfa11bb586e6ec3831b06db120269d681495e829d32"
+    }
+  },
+  "note": "Importer/renderer source bindings below identify the implementations verified before signing. Published artifact digests are independent signing-return bindings."
+}
